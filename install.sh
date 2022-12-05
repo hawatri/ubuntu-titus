@@ -73,3 +73,6 @@ tar -xzvf slice.tar.gz -C /usr/share/sddm/themes
 cp -f "$builddir/sddm.conf" /etc/
 systemctl enable sddm
 systemctl set-default graphical.target
+
+# Polybar configuration
+bash scripts/changeinterface
